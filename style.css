@@ -13,9 +13,11 @@ body{
 
 :root{
     font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /*nav*/
+
 nav{
     background-color: rgb(255, 94, 0);
     display: flex;
@@ -25,7 +27,6 @@ nav{
     z-index: 11;
     width: 100%;
     top: 0;
-
 }
 
 #container_nav{
@@ -46,12 +47,11 @@ nav{
     display: flex;
     flex-direction: row;
     gap: 10px;
-
 }
 
 .icons{
     display: flex;
-    gap: 10px;
+    cursor: pointer;
 }
 
 /*main*/
@@ -72,7 +72,6 @@ nav{
     position: relative;
     justify-content: center;
     width: 100%;
-    
 }
 
 .row2{
@@ -107,6 +106,11 @@ nav{
 
 .brand{
     font-size: 15px;
+    position: relative;
+}
+
+.object_name{
+    position: relative;
 }
 
 .discount{
@@ -182,42 +186,35 @@ footer{
 /*sezione hover*/
 
 .fa-heart1:hover{
-    display: block;
     color: red;
 }
 
 .one:hover{
-    display: block;
     content: url(img/1b.webp);
     max-height: 700px;  
 }
 
 .two:hover{
-    display: block;
     content: url(img/2b.webp);
     max-height: 700px;  
 }
 
 .three:hover{
-    display: block;
     content: url(img/3b.webp);
     max-height: 700px;  
 }
 
 .four:hover{
-    display: block;
     content: url(img/4b.webp);
     max-height: 700px;   
 }
 
 .five:hover{
-    display: block;
     content: url(img/5b.webp);
     max-height: 700px;  
 }
 
 .six:hover{
-    display: block;
     content: url(img/6b.webp);
     max-height: 700px;   
 }
